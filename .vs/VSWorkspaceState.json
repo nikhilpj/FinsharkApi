@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\api"
+    "\\api",
+    "\\api\\Models"
   ],
-  "SelectedNode": "\\api\\Models",
+  "SelectedNode": "\\api\\Models\\Comment.cs",
   "PreviewInSolutionExplorer": false
 }
