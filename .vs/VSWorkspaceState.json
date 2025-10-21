@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\api",
+    "\\api\\Controllers",
     "\\api\\Models"
   ],
-  "SelectedNode": "\\api\\obj",
+  "SelectedNode": "\\api\\api.csproj",
   "PreviewInSolutionExplorer": false
 }

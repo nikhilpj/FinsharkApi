@@ -20,5 +20,16 @@ namespace api.Controllers
             var stocks = _context.Stock.ToList();
             return Ok(stocks);
         }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById([FromRoute] int id)
+        {
+            var stock = _context.Stock.Find(id);
+            if(stock == null)
+            {
+                return NotFound();
+            }
+            return Ok(stock);
+        }
     }
 }
